@@ -1,0 +1,6 @@
+{% for blog in blogObjects.all %}
+<h1>Title: {{blog.title}}</h1>
+<h2>Date: {{blog.date}}</h2>
+<h2>Summary: {{blog.blog_body}}</h2>
+</br>
+{% endfor %}
