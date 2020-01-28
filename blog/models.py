@@ -6,7 +6,7 @@ class Blog(models.Model):
 	# Title
 	title = models.CharField(max_length=100)
 	# Publish Date: Last Modified will be shown
-	date = models.DateField(auto_now_add=True)
+	date = models.DateField()
 	# Body
 	blog_body = models.TextField()
 	# Image
